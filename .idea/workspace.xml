@@ -53,7 +53,7 @@
       <recent name="C:\Users\User\Desktop\selen\driver\win" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.CallBackTest.test">
+  <component name="RunManager" selected="JAR Application.app-order.jar">
     <configuration name="CallBackTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -106,8 +106,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.CallBackTest.test" />
         <item itemvalue="JAR Application.app-order.jar" />
+        <item itemvalue="Gradle.CallBackTest.test" />
         <item itemvalue="Gradle.CallBackTest" />
       </list>
     </recent_temporary>
@@ -156,7 +156,28 @@
       <option name="project" value="LOCAL" />
       <updated>1659184969258</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="tests">
+      <created>1659185217119</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1659185217119</updated>
+    </task>
+    <task id="LOCAL-00007" summary="tests">
+      <created>1659185319011</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1659185319011</updated>
+    </task>
+    <task id="LOCAL-00008" summary="tests">
+      <created>1659185379843</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1659185379843</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

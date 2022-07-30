@@ -28,7 +28,7 @@ public class CallBackTest {
     }
 
     @Test
-    void test(){
+    void test() {
         driver.get("http://localhost:9999/");
         List<WebElement> elements = driver.findElements(By.className("input__control"));
         elements.get(0).sendKeys("Вася Пупкин");
@@ -36,10 +36,8 @@ public class CallBackTest {
         driver.findElement(By.className("checkbox__box")).click();
         driver.findElement(By.className("button__text")).click();
         String text = driver.findElement(By.className("Success_successBlock__2L3Cw")).getText();
-        assertEquals("Ваша заявка успешно отправлена! Наш менеджер свяжется с вами в ближайшее время.",text.trim());
+        assertEquals("Ваша заявка успешно отправлена! Наш менеджер свяжется с вами в ближайшее время.", text.trim());
     }
-
-
 
 
     @AfterEach

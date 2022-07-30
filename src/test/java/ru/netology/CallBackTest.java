@@ -28,7 +28,7 @@ public class CallBackTest {
     }
 
     @Test
-    void test() {
+    void Test() {
         driver.get("http://localhost:9999/");
         List<WebElement> elements = driver.findElements(By.className("input__control"));
         elements.get(0).sendKeys("Вася Пупкин");

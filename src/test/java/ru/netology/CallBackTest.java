@@ -17,18 +17,18 @@ public class CallBackTest {
 
 
     @BeforeAll
-    static void SetUpAll() {
+    static void setUpAll() {
         System.setProperty("webdriver.chrome.driver", "driver/win/chromedriver.exe");
 
     }
 
     @BeforeEach
-    void SetUp() {
+    void setUp() {
         driver = new ChromeDriver();
     }
 
     @Test
-    void Test() {
+    void test() {
         driver.get("http://localhost:9999/");
         List<WebElement> elements = driver.findElements(By.className("input__control"));
         elements.get(0).sendKeys("Вася Пупкин");
